@@ -1,0 +1,65 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-now {
+  font-size: 24px;
+  overflow: hidden;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.btn-green {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+
+.btn-green:hover {
+  background-color: #449d47 !important;
+}
+
+
+#root {
+  background: #f7f7f7;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.delete-icon:hover {
+  color: #ea1818 !important;
+}
+
+.edit-icon:hover {
+  color: #4caf50 !important;
+}
+
+.MuiSvgIcon-root {
+  font-size: 1.3rem !important;
+}
+
+.error-message {
+  color: red;
+}
+
+.form-label {
+  margin-bottom: 0.1rem;
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  font-weight: 500;
+}
